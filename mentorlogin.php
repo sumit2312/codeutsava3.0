@@ -76,16 +76,16 @@ include 'mentor_login.php'
 							<li class="has-dropdown">
 								<a href="#">Register</a>
 								<ul class="dropdown">
-									<li><a href="mentorreg.html">As Mentor</a></li>
-									<li><a href="startupreg.html">As Startup</a></li>
+									<li><a href="mentorreg.php">As Mentor</a></li>
+									<li><a href="startupreg.php">As Startup</a></li>
 								</ul>
 							</li>
 							<li class="has-dropdown">
 								<a href="services.html">Login</a>
 								<ul class="dropdown">
-									<li><a href="adminlogin.html">Admin</a></li>
-									<li><a href="mentorlogin.html">Mentor</a></li>
-									<li><a href="startuplogin.html">Startup</a></li>
+									<li><a href="adminlogin.php">Admin</a></li>
+									<li><a href="mentorlogin.php">Mentor</a></li>
+									<li><a href="startuplogin.php">Startup</a></li>
 									
 								</ul>
 							</li>
