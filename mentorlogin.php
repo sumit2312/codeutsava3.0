@@ -1,3 +1,10 @@
+<?php
+
+include 'mentor_login.php'
+
+?>
+
+
 <!DOCTYPE HTML>
 
 <html>
@@ -105,19 +112,19 @@
 				
 				<div class="row">
 					<div class=" row align-items-center">
-						<form action="#">
+						<form action="#" method="POST">
 							<div class="form-group">
 								<label for="name">Username</label>
-								<input type="text" class="form-control" id="name">
+								<input type="text" class="form-control" id="name" name="email">
 							</div>
                             <div class="form-group">
 								<label for="name">Password</label>
-								<input type="password" class="form-control" id="name">
+								<input type="password" class="form-control" id="name" name="password">
 							</div>
                             
 														
-							<div class="form-group" >
-								<a name="" id="" class="btn btn-primary" href="admin.html" role="button"> Submit</a>
+							<div class="form-group">
+								<input type="submit" class="btn btn btn-special" value="Submit">
 							</div>
 						</form>
 					</div>
@@ -213,4 +220,3 @@
 
 	</body>
 </html>
-

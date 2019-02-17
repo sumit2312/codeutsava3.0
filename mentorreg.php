@@ -1,12 +1,20 @@
+<?php
+
+include 'mentor_reg.php';
+
+
+?>
+
+
 <!DOCTYPE HTML>
 
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Admin</title>
+	<title>Startup Registration</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
@@ -53,12 +61,13 @@
 	
 	<div id="page">
 
-		<nav class="gtco-nav" role="navigation">
+		
+<nav class="gtco-nav" role="navigation">
 			<div class="gtco-container">
 				
 				<div class="row">
 					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Website Template by GetTemplates.co"></a></div>
+						<div id="gtco-logo"><a href="index.html"><img src="" alt="Logo"></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
@@ -68,27 +77,84 @@
 							<li class="has-dropdown">
 								<a href="#">Register</a>
 								<ul class="dropdown">
-									<li><a href="#">As Mentor</a></li>
-									<li><a href="#">As Startup</a></li>
+									<li><a href="mentorreg.html">As Mentor</a></li>
+									<li><a href="startupreg.html">As Startup</a></li>
 								</ul>
 							</li>
 							<li class="has-dropdown">
 								<a href="services.html">Login</a>
 								<ul class="dropdown">
-									<li><a href="#">Admin</a></li>
-									<li><a href="#">Mentor</a></li>
-									<li><a href="#">Startup</a></li>
+									<li><a href="adminlogin.html">Admin</a></li>
+									<li><a href="mentorlogin.html">Mentor</a></li>
+									<li><a href="startuplogin.html">Startup</a></li>
 									
 								</ul>
 							</li>
-</div>
-</div>
-</div>
-<!--======================End Navbar ====================-->
+							
+						
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</nav>
 
 
+		<header id="gtco-header" class="gtco-cover gtco-cover-xs gtco-inner" style="height:100px;" role="banner">
+			<div>
+		        <h1 class="text-center"><strong>Mentor Registration</strong></h1>
+			</div>
+		</header>	
 
-        <!--====================   FOOTER   =================-->
+		
+
+		<div class="gtco-section">
+			<div class="gtco-container">
+				
+				<div class="row">
+					<div class=" row align-items-center">
+						<form action="#" method="POST">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="form-control" id="name" name="name">
+							</div>
+               <div class="form-group">
+								<label for="name">Contact Number</label>
+								<input type="text" class="form-control" id="name" name="number">
+							</div>
+              <div class="form-group">
+								<label for="name">Field Specialisation</label>
+								<input type="text" class="form-control" id="name" name="fsp">
+							</div>
+							<div class="form-group">
+								<label for="name">Work Experience</label>
+								<input type="text" class="form-control" id="name" name="work_experience">
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" name="email">
+							</div>
+
+							<div class="form-group">
+								<label for="email">Password</label>
+								<input type="password" class="form-control" id="email" name="password">
+							</div>
+							
+							<div class="form-group">
+								<input type="submit" class="btn btn btn-special" value="Submit">
+							</div>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!-- END .gtco-services -->
+
+		
+		
+		
+
 		<footer id="gtco-footer" class="gtco-section" role="contentinfo">
 			<div class="gtco-container">
 				<div class="row row-pb-md">
@@ -161,17 +227,13 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
 	</body>
 </html>
-
-		
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</nav>
