@@ -26,7 +26,7 @@ if (array_key_exists("email",$_POST) and (array_key_exists("password",$_POST))){
                             
                             
 
-                            header("Location: index.html");
+                            header("Location: dashboard/index.php?id=".$row['id']);
                                 
                         } else {
                             

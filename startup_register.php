@@ -33,7 +33,7 @@ mysqli_query($link, $query);
     
     
     
-    header("Location: index.html");
+    header("Location: startuplogin.php");
 }}
 else{
 

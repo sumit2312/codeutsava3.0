@@ -1,3 +1,7 @@
+<?php
+include('db.php');
+?>
+
 <!DOCTYPE HTML>
 
 <html>
@@ -19,7 +23,7 @@
 	<meta name="twitter:card" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -48,23 +52,23 @@
 
 	</head>
 	<body>
-		
+
 	<div class="gtco-loader"></div>
-	
+
 	<div id="page">
 
 		<nav class="gtco-nav" role="navigation">
 			<div class="gtco-container">
-				
+
 				<div class="row">
 					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Website Template by GetTemplates.co"></a></div>
+						<div id="gtco-logo"><a href="index.html"><img src="images/logo.png"></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
-							
+
 							<li class="has-dropdown">
 								<a href="#">Register</a>
 								<ul class="dropdown">
@@ -78,27 +82,31 @@
 									<li><a href="#">Admin</a></li>
 									<li><a href="#">Mentor</a></li>
 									<li><a href="#">Startup</a></li>
-									
+
 								</ul>
 							</li>
+							<li><a href="admin/home.php">Room Booking Request</a></li>
+
 </div>
 </div>
 </div>
 <!--======================End Navbar ====================-->
-<div class="container">
+<div class="container" style="margin-bottom:101px">
+
+<h1 class="text-center">Applied StartUps</h1>
 <?php
 include "admin1.php";
 ?>
 
 </div>
 
-
+</div >
         <!--====================   FOOTER   =================-->
 		<footer id="gtco-footer" class="gtco-section" role="contentinfo">
 			<div class="gtco-container">
 				<div class="row row-pb-md">
 					<div class="col-md-8 col-md-offset-2 gtco-cta text-center">
-						
+
 						<p><a href="#" class="btn btn-white btn-outline">Contact Us</a></p>
 					</div>
 				</div>
@@ -113,7 +121,7 @@ include "admin1.php";
 								<ul class="gtco-list-link">
 									<li><a href="#">Home</a></li>
 									<li><a href="#">About</a></li>
-									
+
 								</ul>
 							</div>
 							<div class="col-md-6">
@@ -138,7 +146,7 @@ include "admin1.php";
 			<div class="gtco-copyright">
 				<div class="gtco-container">
 					<div class="row">
-						
+
 					</div>
 				</div>
 			</div>
@@ -149,7 +157,7 @@ include "admin1.php";
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -169,11 +177,11 @@ include "admin1.php";
 	</body>
 </html>
 
-		
+
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
-				
+
 			</div>
 		</nav>

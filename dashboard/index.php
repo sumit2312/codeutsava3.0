@@ -1,3 +1,7 @@
+<?php
+include('db.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,9 +37,9 @@
     </button>
 
     <!-- Navbar Search -->
-    
+
     <!-- Navbar -->
-    
+
   </nav>
 
   <div id="wrapper">
@@ -49,8 +53,8 @@
         </a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        
+        <a class="nav-link" href="../admin/reservation.php">
+
         <span>Room Booking</span>
       </a>
 
@@ -61,13 +65,13 @@
           <span>Help Provided</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="mentors_info.php">
           <i class="fas fa-fw fa-table"></i>
           <span>Mentors</span></a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="tables.html">
-          
+
           <span>Logout</span></a>
       </li>
     </ul>
@@ -155,6 +159,9 @@
        <!--======================================================-->
         <div>
         <h2>Personal Details - </h2>
+
+
+        <?php include 'startup_info.php' ?>
         </div>
 
       </div>
@@ -164,7 +171,7 @@
       <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            
+
           </div>
         </div>
       </footer>
